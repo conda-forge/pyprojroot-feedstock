@@ -17,15 +17,13 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.7
   run:
-    - python
-    - pathlib
+    - python >=3.7
 
 test:
   imports:
     - pyprojroot
-    - tests
 
 about:
   home: https://github.com/chendaniely/pyprojroot
